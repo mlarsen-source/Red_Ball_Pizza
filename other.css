@@ -1,0 +1,108 @@
+/*
+    Defines all remaining styles for the Red Ball Pizza web page.
+
+    Author: Matthew Larsen
+    Date: 08/10/2024
+    sdev 106
+    File: other.css
+
+ */
+
+body {
+  background: url("parlor.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header img {
+  width: 100%;
+}
+
+nav.horizontal {
+  font-size: 20px;
+  align-items: center;
+  padding-left: 10px;
+}
+
+nav.horizontal li {
+  width: 220px;
+}
+
+nav.vertical {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+nav.vertical ul {
+  width: 100%;
+}
+
+nav.vertical a {
+  display: block;
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    rgba(178, 16, 44, 1),
+    rgba(154, 20, 23, 0)
+  );
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+main {
+  background-color: rgb(244, 244, 244);
+  border-right: 4px solid rgba(154, 20, 23, 1);
+  border-left: 4px solid rgba(154, 20, 23, 1);
+  padding: 10px;
+}
+
+#deals div {
+  border: 3px dashed rgba(154, 20, 23, 1);
+  margin: 15px;
+  padding: 0px;
+}
+
+#deals h1 {
+  padding: 10px;
+}
+
+#deals div:nth-child(odd) {
+  background-color: rgba(254, 194, 198, 1);
+}
+
+#deals div:nth-child(even) {
+  background-color: rgba(231, 231, 231, 1);
+}
+
+#deals p {
+  margin: 0;
+  padding: 10px;
+}
+
+#deals p:nth-child(3) {
+  font-weight: bold;
+}
+
+aside h1 {
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+aside li {
+  background-image: linear-gradient(
+    to right,
+    rgba(197, 197, 197, 1),
+    rgba(212, 111, 118, 1)
+  );
+  box-shadow: 5px 5px 20px rgb(130, 130, 130);
+  border: 3px solid rgba(154, 20, 23, 1);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 13px;
+}
